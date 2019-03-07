@@ -44,9 +44,9 @@ Port(
 end question3;
 
 architecture Behavioral of question3 is
-signal Aout: std_logic:= '0';
-signal Bout: std_logic:='0';
-signal Cout: std_logic:='0';
+signal Aout: std_logic;
+signal Bout: std_logic;
+signal Cout: std_logic;
 
 begin
 
